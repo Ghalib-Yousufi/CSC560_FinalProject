@@ -1,0 +1,29 @@
+<br>
+<div class="col-md-8 offset-md-2">
+<div style="text-align:center" class="well">
+  <header>
+    <h4>
+    {{title}}
+  </h4>
+  </header>
+</div>
+<nav class="navbar navbar-light navbar-expand-sm bg-white">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a routerLink="project/add" class="nav-link" routerLinkActive="active">
+          Add Project
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="user/add" class="nav-link" routerLinkActive="active">
+          Add Manager
+        </a>
+      </li> 
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+</div>
